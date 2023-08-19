@@ -1,7 +1,7 @@
 let GE1 = 0.5;
 let GE2 = 0.5;
 let GE3 = 0.5;
-let GE4 = 0.5;
+let GE4 = 0.8;
 
 // start 
 var AknowledgmentOfChallenge = ['Though the road ahead may be filled with challenges, ',
