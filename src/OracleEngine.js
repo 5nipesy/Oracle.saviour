@@ -238,29 +238,27 @@ function OracleCounter() {
   }
 }
 
-let margin = document.getElementById('death') 
-var marginprocent = 7
+let margin = document.getElementById('death');
+var marginprocent = 7;
 
-function StageRight () {
-setTimeout (
-  Dialog(), 1000
-) 
+function StageRight() {
+  // Check the width of the viewport
+  if (window.innerWidth >= 1717) {
+    setTimeout(Dialog, 1000);
 
-for (let i = 0; i < 84; i++) {
-setTimeout (function() {
-  marginprocent--
-  margin.style.marginRight = marginprocent+'%'
-}, i * 5 ) 
+    for (let i = 0; i < 84; i++) {
+      setTimeout(function() {
+        marginprocent--;
+        margin.style.marginRight = marginprocent + '%';
+      }, i * 5);
+    }
+
+    setTimeout(function() {
+      resetDialog();
+    }, 3000);
+  }
 }
 
-setTimeout (
-  function() {
-  resetDialog()
-  },
-  3000
-)
-
-}
 
 
 
