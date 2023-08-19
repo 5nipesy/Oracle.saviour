@@ -1,0 +1,133 @@
+body {
+margin-left: auto;
+margin-right: auto;
+background-image: url(./assets/Tavern.jpg);
+  background-size: cover;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+
+main {
+  background-color:rgba(0, 0, 0, 0.705);
+  margin-top: 0px;
+} 
+
+
+#book {
+width: 90%;
+height: 1400px;
+  background-image: url(./assets/bgbook.png);
+  background-size: 100%;
+  margin-left: auto;
+margin-right: auto;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+#mainelements {
+  display: flex;
+  justify-content: center;
+}
+
+#book img {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#book section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ }
+
+ #death {
+  margin-right:7%;
+ }
+
+ #death img {
+  border-radius: 3px 100px 3px 100px;
+ }
+
+ #book h1 {
+  color: white;
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  margin: 0px;
+  font-family: "Moria",serif;
+ font-size: 750%;
+ text-shadow: 3px 3px 7px #000000;
+ }
+
+ #fortune {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 7%;
+  align-items: center;
+
+ }
+
+ #fortune h2 {
+  font-size: 160%;
+  color: white;
+  font-family: "Moria", serif;
+  text-shadow: 3px 3px 7px #000000;
+ }
+
+
+ #fortune p {
+  width: 60%;
+ font-family: "Moria",sans-serif;
+ color: white;
+ text-shadow: 3px 3px 7px #000000;
+margin: auto;
+font-size: 75%;
+ }
+ 
+ 
+ @font-face {
+  font-family: "Moria";
+  src: url("./assets/MoriaCitadel.TTF");
+}
+
+.btn-home{
+  margin: 10px auto;
+  width: 250px;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  font-family: "Moria", cursive;
+  color: #ffc000;
+  font-size: 10px;
+  font-weight: 400;
+  text-shadow: 0 1px 3px #000;
+  text-align: center;
+  padding: 10px 0;
+  background: radial-gradient(circle, #8b0000, #8b0000);
+  border-top: 4px ridge #ffb000;
+  border-left: 4px groove #ffb000;
+  border-right: 4px ridge #ffb000;
+  border-bottom: 4px groove #ffb000;
+  box-shadow: inset 0px 0px 5px 3px rgba(1,1,1,0.3);
+}
+
+.btn-home:hover{
+  background: radial-gradient(circle, #e52b2b, #8b0000);
+  box-shadow: 0px 0 5px 5px rgba(255,255,255,0.2)
+}
+
+.btn-home:active{
+  background: radial-gradient(circle, #ec6a6a, #e52b2b);
+  box-shadow: 0px 0 5px 5px rgba(255,255,255,0.2)
+}
