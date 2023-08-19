@@ -66,7 +66,7 @@ align-items: center;
   margin: 0px;
   font-family: "Moria",serif;
  font-size: 750%;
- text-shadow: 3px 3px 7px #000000;
+ text-shadow: 7px 7px 7px #000000;
  }
 
  #fortune {
@@ -91,7 +91,7 @@ align-items: center;
   width: 60%;
  font-family: "Moria",sans-serif;
  color: white;
- text-shadow: 3px 3px 7px #000000;
+ text-shadow: 7px 7px 7px #000000;
 margin: auto;
 font-size: 75%;
  }
